@@ -148,6 +148,7 @@ kayakodashboard.controller("KayakoMainPageController", function($scope, $log, $h
         $scope.searchTicketStatus = searchTicketStatus;
         $scope.searchTicketsCountByStatusID = searchTicketsCountByStatusID;
         $scope.totaloftickets = totalOfTickets;
+        $scope.percentageofticketsbystatus = percentageOfTicketsByStatus;
 
         /* Partie qui réalise les dessins dans les balises canvas de la vue contrôlée */
         /* CANVAS */

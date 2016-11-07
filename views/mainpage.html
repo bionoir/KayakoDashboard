@@ -21,9 +21,47 @@
 	  <h4>Label</h4>
 	  <span class="text-muted">Something else</span>
 	</div>
-	<!--<div class="col-xs-6 col-sm-3 placeholder">
-	  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-	  <h4>Label</h4>
-	  <span class="text-muted">Something else</span>
-	</div> -->
+</div>
+
+<div class="row">
+	<ul>
+		<li ng-repeat="(status, percentage) in percentageofticketsbystatus">{{status}}: {{percentage}}</li>
+	</ul>
+</div>
+
+<div class="row">
+	<table id="chartData">
+
+		<tr>
+			<th>Widget</th><th>Sales ($)</th>
+		</tr>
+
+		<tr style="color: #0DA068">
+			<td>SuperWidget</td><td>1862.12</td>
+		</tr>
+
+		<tr style="color: #194E9C">
+			<td>MegaWidget</td><td>1316.00</td>
+		</tr>
+
+		<tr style="color: #ED9C13">
+			<td>HyperWidget</td><td>712.49</td>
+		</tr>
+
+		<tr style="color: #ED5713">
+			<td>WonderWidget</td><td>3236.27</td>
+		</tr>
+
+		<tr style="color: #057249">
+			<td>MicroWidget</td><td>6122.06</td>
+		</tr>
+
+		<tr style="color: #5F91DC">
+			<td>NanoWidget</td><td>128.11</td>
+		</tr>
+
+		<tr style="color: #F88E5D">
+			<td>LovelyWidget</td><td>245.55</td>
+		</tr>
+	</table>
 </div>
